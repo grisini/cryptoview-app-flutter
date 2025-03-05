@@ -17,11 +17,11 @@ class CryptoCoinTileWidget extends StatelessWidget {
       ),
       trailing: Icon(Icons.arrow_forward_ios, color: Colors.white, size: 15),
       title: Text(
-        '${cryptoCoin.name}',
+        cryptoCoin.name,
         style: Theme.of(context).textTheme.labelMedium,
       ),
       subtitle: Text(
-        '${cryptoCoin.price}',
+        cryptoCoin.price.toString(),
         style: Theme.of(context).textTheme.labelSmall,
       ),
       onTap: () {

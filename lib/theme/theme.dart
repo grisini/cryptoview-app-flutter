@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-final DarkTheme = ThemeData(
+final darkTheme = ThemeData(
   primarySwatch: Colors.blue,
   scaffoldBackgroundColor: Colors.grey[900],
   appBarTheme: AppBarTheme(
     backgroundColor: Colors.grey[900],
     centerTitle: true,
   ),
-  dividerColor: Color(0xFF0B90B),
+  dividerColor: Color(0xFF00B90B),
   textTheme: const TextTheme(
     titleLarge: TextStyle(fontSize: 30, color: Colors.white),
     bodySmall: TextStyle(fontSize: 24, color: Colors.grey),

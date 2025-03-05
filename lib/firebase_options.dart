@@ -65,4 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'cryptoview-1st.firebasestorage.app',
     iosBundleId: 'com.example.cryptoview',
   );
+
 }

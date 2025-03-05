@@ -17,7 +17,7 @@ class _CryptoAppState extends State<CryptoApp> {
     final appRouter = AppRouter(); // Создаем маршрутизатор заранее
 
     return MaterialApp.router(
-      theme: DarkTheme,
+      theme: darkTheme,
       routerConfig: appRouter.config(
         navigatorObservers: () => [TalkerRouteObserver(GetIt.I<Talker>())],
       ),
