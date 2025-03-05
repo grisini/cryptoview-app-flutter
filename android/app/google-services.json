@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1019483348892",
+    "project_id": "cryptoview-1st",
+    "storage_bucket": "cryptoview-1st.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019483348892:android:9fb0457d009fa24f073259",
+        "android_client_info": {
+          "package_name": "com.example.cryptoview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYWHFkmo3m2k3v_LnnLnNply3L40wfW2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
